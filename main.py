@@ -61,6 +61,8 @@ while True:
         print("ваше число меньше загаданного")
     elif user_input > target_number:
         print ("Ваше число больше загаданного")
+    else:
+        break
 
 print("ВЫ УГАДАЛИ!")
 print (f"Вы пытались {number_of_tries} раз.")
